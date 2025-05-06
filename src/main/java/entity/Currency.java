@@ -60,4 +60,9 @@ public class Currency {
     public void setExchangeRate(double exchangeRate) {
         this.exchangeRate = exchangeRate;
     }
+    
+    @Override
+    public String toString() {
+        return code + " - " + name;
+    }
 }
